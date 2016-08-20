@@ -54,7 +54,7 @@ public class BPlusTree<K extends Comparable> {
             if (newSibling.parent!=null) {
                 add(newSibling.parent, ((List<Entry<K>>)(newSibling.entries)).get(0).key, newSibling);
             } else {
-                // TODO
+                // TODO create new root node
             }
         }
         // If node is not leaf, and is not full, split it as well
@@ -67,7 +67,7 @@ public class BPlusTree<K extends Comparable> {
             if (newSibling.parent!=null) {
                 add(newSibling.parent, ((List<Entry<K>>)(newSibling.entries)).get(0).key, newSibling);
             } else {
-                // TODO
+                // TODO create new root node
             }
         }
 
