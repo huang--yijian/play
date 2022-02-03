@@ -1,5 +1,6 @@
 package org.hyj.test;
 
+
 /**
  * Created by Administrator on 18-4-21.
  */
@@ -11,6 +12,6 @@ public class Cat {
     }
 
     public void fuck(Cat cat) {
-        System.out.println("I am Cat " + name + ", and I am fucking " + cat.name);
+        System.out.println("I am Cat " + name + ", and I am " + cat.name);
     }
 }
