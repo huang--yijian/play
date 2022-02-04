@@ -2,6 +2,7 @@ package org.hyj.leetcode;
 
 import java.util.HashSet;
 
+// https://leetcode-cn.com/problems/count-number-of-homogenous-substrings/
 public class L1759 {
 
     /*
