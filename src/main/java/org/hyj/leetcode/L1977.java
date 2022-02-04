@@ -1,5 +1,6 @@
 package org.hyj.leetcode;
 
+// https://leetcode-cn.com/problems/number-of-ways-to-separate-numbers/
 public class L1977 {
     /*
        Each time make one choice of put a comma after one character
