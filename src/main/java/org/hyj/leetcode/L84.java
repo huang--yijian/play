@@ -1,5 +1,6 @@
 package org.hyj.leetcode;
 
+// https://leetcode-cn.com/problems/largest-rectangle-in-histogram/submissions/
 public class L84 {
     public static void main(String[] args) {
         System.out.println("Result is " + new L84().largestRectangleArea(new int[]{0,0}));
