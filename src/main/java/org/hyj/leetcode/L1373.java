@@ -1,20 +1,8 @@
 package org.hyj.leetcode;
 
-import java.util.Arrays;
+import org.hyj.common.TreeNode;
 
-// https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/
-class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode() {}
-     TreeNode(int val) { this.val = val; }
-     TreeNode(int val, TreeNode left, TreeNode right) {
-         this.val = val;
-         this.left = left;
-         this.right = right;
-     }
-}
+import java.util.Arrays;
 
 // https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/
 public class L1373 {
